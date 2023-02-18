@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="248.0" layoutY="55.0" text="Delete Team" textFill="#2d12db">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="teamNames" layoutX="13.0" layoutY="111.0" prefHeight="238.0" prefWidth="283.0" />
+      <Button fx:id="showTeamsBtn" layoutX="110.0" layoutY="356.0" mnemonicParsing="false" onAction="#showTeamNames" text="Show Teams" />
+      <TextField layoutX="369.0" layoutY="135.0" />
+      <Label layoutX="369.0" layoutY="107.0" text="Enter Team Number" />
+      <Button layoutX="369.0" layoutY="201.0" mnemonicParsing="false" text="Delete Team" textFill="#f80606" />
+      <Button fx:id="deleteBackBtn" layoutX="391.0" layoutY="357.0" mnemonicParsing="false" onAction="#deleteBack" text="Back" />
+      <ImageView fitHeight="106.0" fitWidth="123.0" layoutX="14.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Photo_1647771164603.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="141.0" layoutY="14.0" text="T20 Tournament System" textFill="#3e0eee">
+         <font>
+            <Font size="33.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

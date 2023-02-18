@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="634.0" prefWidth="523.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+     <Label layoutX="32.0" layoutY="102.0" prefWidth="200" text="Country" />
+     <Label layoutX="32.0" layoutY="187.0" prefWidth="200" text="Player 2 Name" />
+     <Label layoutX="32.0" layoutY="226.0" prefWidth="200" text="Player 3 Name" />
+     <Label layoutX="32.0" layoutY="267.0" prefWidth="200" text="Player 4 Name" />
+     <Label layoutX="32.0" layoutY="307.0" prefWidth="200" text="Player 5 Name" />
+     <Label layoutX="32.0" layoutY="346.0" prefWidth="200" text="Player 6 Name" />
+     <Label layoutX="32.0" layoutY="389.0" prefWidth="200" text="Player 7 Name" />
+     <Label layoutX="32.0" layoutY="432.0" prefWidth="200" text="Player 8 Name" />
+     <Label layoutX="32.0" layoutY="475.0" prefWidth="200" text="Player 9 Name" />
+     <Label layoutX="32.0" layoutY="515.0" prefWidth="200" text="Player 10 Name" />
+     <Label layoutX="32.0" layoutY="554.0" prefWidth="200" text="Player 11 Name" />
+
+     <Button fx:id="insertTeamDetails" layoutX="335.0" layoutY="597.0" onAction="#insertTeamDetails" text="Add Team">
+      <padding>
+         <Insets bottom="3.0" left="5.0" right="5.0" top="3.0" />
+      </padding></Button>
+     <Label layoutX="32.0" layoutY="145.0" prefWidth="200" text="Player 1 Name" />
+   <Button fx:id="insertBackBtn" layoutX="32.0" layoutY="597.0" mnemonicParsing="false" onAction="#insertTeamBack" text="Back">
+      <padding>
+         <Insets bottom="3.0" left="5.0" right="5.0" top="3.0" />
+      </padding></Button>
+
+     <TextField fx:id="tName" layoutX="243.0" layoutY="97.0" />
+     <TextField fx:id="p1Name" layoutX="243.0" layoutY="140.0" />
+     <TextField fx:id="p2Name" layoutX="243.0" layoutY="182.0" />
+     <TextField fx:id="p3Name" layoutX="243.0" layoutY="221.0" />
+     <TextField fx:id="p4Name" layoutX="243.0" layoutY="262.0" />
+     <TextField fx:id="p5Name" layoutX="243.0" layoutY="302.0" />
+     <TextField fx:id="p6Name" layoutX="243.0" layoutY="344.0" />
+     <TextField fx:id="p7Name" layoutX="243.0" layoutY="384.0" />
+     <TextField fx:id="p8Name" layoutX="243.0" layoutY="427.0" />
+     <TextField fx:id="p9Name" layoutX="243.0" layoutY="470.0" />
+     <TextField fx:id="p10Name" layoutX="243.0" layoutY="510.0" />
+     <TextField fx:id="p11Name" layoutX="243.0" layoutY="549.0" />
+   <Label layoutX="130.0" layoutY="-5.0" text="T20 Tournament System" textFill="#3e0eee">
+      <font>
+         <Font size="33.0" />
+      </font></Label>
+   <Label layoutX="214.0" layoutY="42.0" text="Insert Team" textFill="#2d12db">
+      <font>
+         <Font size="25.0" />
+      </font></Label>
+   <ImageView fitHeight="92.0" fitWidth="130.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@Photo_1647771164603.png" />
+      </image>
+   </ImageView>
+
+
+</AnchorPane>

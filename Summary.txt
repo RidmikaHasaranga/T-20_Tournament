@@ -1,0 +1,19 @@
+null and null
+null win the toss and choose to bat first
+First Inning
+
+ballers,
+[null, null, null, null, null]
+[2, 2, 1, 2, 3]
+batsmen,
+[null, null, null, null, null, null, null, null, null, null, null]
+[6, 10, 5, 17, 1, 11, 12, 0, 27, 51, 29]Total Score:187
+Second Inning
+ballers,
+[null, null, null, null, null]
+[2, 1, 3, 2, 2]
+batsmen,
+[null, null, null, null, null, null, null, null, null, null, null]
+[0, 7, 8, 17, 20, 12, 23, 22, 19, 17, 4]Total Score:159
+null win the match
+

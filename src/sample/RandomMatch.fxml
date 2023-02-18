@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="908.0" prefWidth="804.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="337.0" layoutY="88.0" text="Random Match" textFill="#2d12db">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Label layoutX="243.0" layoutY="30.0" text="T20 Tournament System" textFill="#3e0eee">
+         <font>
+            <Font size="33.0" />
+         </font></Label>
+      <ImageView fitHeight="127.0" fitWidth="136.0" layoutX="85.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Photo_1647771164603.png" />
+         </image>
+      </ImageView>
+      <TextArea fx:id="RMTextArea1" layoutX="28.0" layoutY="194.0" prefHeight="671.0" prefWidth="388.0" />
+      <Button fx:id="GRMBtn" layoutX="341.0" layoutY="143.0" mnemonicParsing="false" onAction="#generateMatch" text="Genarate Random Match" />
+      <Button fx:id="GRMBackBtn" layoutX="400.0" layoutY="870.0" mnemonicParsing="false" onAction="#GRMBack" text="Back" />
+      <TextArea fx:id="RMTextArea2" layoutX="430.0" layoutY="194.0" prefHeight="671.0" prefWidth="388.0" />
+      <Label layoutX="184.0" layoutY="173.0" text="First Ining" />
+      <Label layoutX="586.0" layoutY="173.0" text="Second Ining" />
+   </children>
+</AnchorPane>

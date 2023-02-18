@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="628.0" style="-fx-background-color: #f2f2f2;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="insertBtn" layoutX="390.0" layoutY="127.0" mnemonicParsing="false" onAction="#insertTeamWindow" prefHeight="30.0" prefWidth="134.0" text="Insert Team" textFill="#07e52f" />
+      <Label layoutX="96.0" layoutY="40.0" text="T20 Tournament System" textAlignment="CENTER" textFill="#0e0be0">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Button fx:id="deleteBtn" layoutX="390.0" layoutY="223.0" mnemonicParsing="false" onAction="#openDeleteWindow" prefHeight="30.0" prefWidth="134.0" text="Delete Team" textFill="#f06202" />
+      <Button fx:id="matchBtn" layoutX="383.0" layoutY="375.0" mnemonicParsing="false" onAction="#openMatchWindow" prefHeight="30.0" prefWidth="147.0" text="Start New Tournament" textFill="#f60808" />
+      <Button fx:id="updateBtn" layoutX="390.0" layoutY="271.0" mnemonicParsing="false" onAction="#openUpdateWindow" prefHeight="30.0" prefWidth="134.0" text="Update Team" textFill="#07f3d3" />
+      <Button fx:id="teamDetailsBtn" layoutX="390.0" layoutY="176.0" mnemonicParsing="false" onAction="#showTeamDetailsWindow" prefHeight="30.0" prefWidth="134.0" text="Team Details" textFill="#441ec0" />
+      <ImageView disable="true" fitHeight="227.0" fitWidth="262.0" layoutX="87.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Photo_1647771164603.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="13.0" layoutY="371.0" text="If all updates, deletes, and inserts are done," />
+      <Label layoutX="7.0" layoutY="391.0" text=" select this button for going to new Tournament" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="524.0" prefWidth="759.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="313.0" fitWidth="313.0" layoutX="56.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Photo_1647771164603.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="213.0" layoutY="3.0" text="T20 Tournament System" textFill="#3e0eee">
+         <font>
+            <Font size="33.0" />
+         </font></Label>
+      <Label layoutX="314.0" layoutY="53.0" text="Match Details" textFill="#2d12db">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Button fx:id="randomMatchWindowBtn" layoutX="452.0" layoutY="176.0" mnemonicParsing="false" onAction="#openRandomMatchWindow" text="Generate Random Match" />
+      <Button layoutX="439.0" layoutY="228.0" mnemonicParsing="false" text="Watch Tournament Standings" />
+      <Button layoutX="405.0" layoutY="333.0" mnemonicParsing="false" text="Best batsmen &amp; ballers in the tournament" />
+      <Button fx:id="summaryWindowBtn" layoutX="430.0" layoutY="282.0" mnemonicParsing="false" onAction="#openSummaryWindow" text="Tournament summary up to now" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="472.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label layoutX="206.0" layoutY="66.0" text="Summary Up to Now" textFill="#2d12db">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <TextArea fx:id="summaryTextArea" layoutX="39.0" layoutY="123.0" prefHeight="293.0" prefWidth="522.0" />
+      <Button fx:id="summaryBackBtn" layoutX="386.0" layoutY="427.0" mnemonicParsing="false" onAction="#summaryBack" text="Back" />
+      <Button fx:id="showSummaryBtn" layoutX="131.0" layoutY="427.0" mnemonicParsing="false" onAction="#showSummary" text="Show Summary" />
+      <ImageView fitHeight="105.0" fitWidth="113.0" layoutX="53.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Photo_1647771164603.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="158.0" layoutY="13.0" text="T20 Tournament System" textFill="#3e0eee">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
